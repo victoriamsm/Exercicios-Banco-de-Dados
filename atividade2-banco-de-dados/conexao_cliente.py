@@ -47,13 +47,5 @@ cursor.execute('DELETE FROM clientes WHERE id=4')
 
 #cursor.execute('CREATE TABLE compras()')
 
-
-
-
-
-
-
-
-
 conexao_cliente.commit()
 conexao_cliente.close()
